@@ -1,0 +1,387 @@
+{
+  "id": "e23fcc32-d256-4f06-b261-8a14d017ca36",
+  "version": "2.0",
+  "name": "SE 2019",
+  "url": "http://unmisterio.xyz",
+  "tests": [{
+    "id": "17b6fbe2-1a80-410b-87f1-308610a7a2e1",
+    "name": "LOGIN CORRECT",
+    "commands": [{
+      "id": "6692d7d2-fb5d-49d1-88d6-df96c3ed7a52",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7d20b53-348a-45b4-855d-4353969c3afe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "468a6510-d124-4f2b-a7c7-17eababd4274",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=button > div",
+      "targets": [
+        ["css=button > div", "css:finder"],
+        ["xpath=//div[@id='root']/div/nav/div/ul/li[6]/div/div/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec2cd3ac-9346-4ef4-815e-daaf06ae22e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=button font > font",
+      "targets": [
+        ["css=button font > font", "css:finder"],
+        ["xpath=//div[@id='root']/div/nav/div/ul/li[6]/div/div/button/span/font/font", "xpath:idRelative"],
+        ["xpath=//span/font/font", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7528",
+      "windowTimeout": 2000
+    }, {
+      "id": "60a5dbe3-12fb-4c60-9f32-be02c782d479",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ff89ac8-0c71-48c4-b87a-88ca40e0c69f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7528}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "724278a6-ed15-4d99-a02c-dc1bc1b3f8c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.M8HEDc:nth-child(3) .riddkc",
+      "targets": [
+        ["css=.M8HEDc:nth-child(3) .riddkc", "css:finder"],
+        ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/span/div/div/ul/li[3]/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9718d0d3-0611-488c-aafa-2e45cefca02a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4ab4edb-1365-4bdb-b150-2fdc09eb2d85",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bebeb8d-067b-4119-bcf2-3099c8d598e7",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47ecbf4c-0824-449f-b77b-ca1d7ccd4521",
+      "comment": "",
+      "command": "click",
+      "target": "css=.waves-effect > font > font",
+      "targets": [
+        ["css=.waves-effect > font > font", "css:finder"],
+        ["xpath=//div[@id='root']/div/nav/div/ul/li[6]/div/div[2]/a/font/font", "xpath:idRelative"],
+        ["xpath=//div[2]/a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0b288c88-3950-48dc-8382-5d4d7bbda056",
+    "name": "LOGIN FAILED",
+    "commands": [{
+      "id": "881a6642-67a0-4ff6-a2b0-dc7fd34b6039",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "886f5628-bf42-44f0-a26a-4b69d4344c56",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "064107c2-6764-4215-9fee-78c285a84a6a",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/nav/div/ul/li[6]/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4314",
+      "windowTimeout": 2000
+    }, {
+      "id": "4a0cbba9-8eca-439d-8cfe-f68fa153f5f9",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "565d8745-59ba-4e19-8991-5ae798be6239",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4314}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b097d0e-a587-4607-b8fc-bff6680e8058",
+      "comment": "",
+      "command": "click",
+      "target": "css=.M8HEDc:nth-child(2) .riddkc",
+      "targets": [
+        ["css=.M8HEDc:nth-child(2) .riddkc", "css:finder"],
+        ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/span/div/div/ul/li[2]/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90f88baf-f68b-4110-a91f-48e6ff447581",
+      "comment": "",
+      "command": "click",
+      "target": "css=.RveJvd",
+      "targets": [
+        ["css=.RveJvd", "css:finder"],
+        ["xpath=//div[@id='next']/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d2f5240-29b8-410a-ba0e-b1351fa170d4",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79311915-effe-43f1-bf7f-528c25445e4f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e58356e-a135-48a7-a409-f06b5d3e7e67",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.right > li:nth-child(5) font > font",
+      "targets": [
+        ["css=.right > li:nth-child(5) font > font", "css:finder"],
+        ["xpath=//div[@id='root']/div/nav/div/ul/li[5]/a/font/font", "xpath:idRelative"],
+        ["xpath=//li[5]/a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82921609-eb38-443b-bf7c-14a6509c84d9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.right > li:nth-child(5) font > font",
+      "targets": [
+        ["css=.right > li:nth-child(5) font > font", "css:finder"],
+        ["xpath=//div[@id='root']/div/nav/div/ul/li[5]/a/font/font", "xpath:idRelative"],
+        ["xpath=//li[5]/a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bed6a5e4-0e7b-40fd-97ce-3697bb236415",
+    "name": "APPLY_CALL_LOGIN_FAILED",
+    "commands": [{
+      "id": "1bc80c13-4d58-4b21-8bb3-f28d45cea5b8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "deb6d15c-ad2b-4c46-86bd-e2c2286a4807",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16827030-960d-4fb1-9e69-41c071bb40c4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//b[@id='1']/a/font/font",
+      "targets": [
+        ["xpath=//b[@id='1']/a/font/font", "xpath:idRelative"],
+        ["xpath=//b[4]/a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "351bbd67-02a5-48c1-887c-98e519a6301b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > font",
+      "targets": [
+        ["css=.btn > font", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/button/font", "xpath:idRelative"],
+        ["xpath=//button/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c425eb3f-3237-4198-85d0-182bff2191a4",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Debe autenticarse antes de aplicar a alguna convocatoria",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f6e2bed5-fe68-438f-be36-6c6b8ec53564",
+    "name": "APPLY_CALL",
+    "commands": [{
+      "id": "5f8163ae-c720-484c-bb22-aa87b83760e8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe48393b-93cc-419e-8820-0d3cc9e2174e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b966537-e4e6-4cca-a5b9-91b964b634ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=button > div",
+      "targets": [
+        ["css=button > div", "css:finder"],
+        ["xpath=//div[@id='root']/div/nav/div/ul/li[6]/div/div/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7708",
+      "windowTimeout": 2000
+    }, {
+      "id": "b7356364-3a6d-4a42-b580-df1dab5006b9",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ecd556aa-d603-4fe2-a3f5-9493bd556282",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7708}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c933382a-92c7-4e8a-85c1-73997bc58933",
+      "comment": "",
+      "command": "click",
+      "target": "css=.M8HEDc:nth-child(3) #profileIdentifier",
+      "targets": [
+        ["css=.M8HEDc:nth-child(3) #profileIdentifier", "css:finder"],
+        ["xpath=(//div[@id='profileIdentifier'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/span/div/div/ul/li[3]/div/div/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ffa849a-0242-4ef3-bf39-fbcc255e16d0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d2efeae-faa2-4bbe-bb58-d4075116b719",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa065f05-df9c-42c3-a13c-f2b17a6714e7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Aplicar",
+      "targets": [
+        ["linkText=Aplicar", "linkText"],
+        ["css=#\\31 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Aplicar')]", "xpath:link"],
+        ["xpath=//b[@id='1']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Convocatoria/1')]", "xpath:href"],
+        ["xpath=//b[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Aplicar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0240e478-0b0c-4e80-b319-43d327b77c32",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "877e3e45-a20a-45aa-a1ac-f67c1c701ad1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(1)",
+      "targets": [
+        ["css=.btn:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db09d3bb-9eeb-40ab-8d34-7b91a31c002f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.waves-effect",
+      "targets": [
+        ["css=.waves-effect", "css:finder"],
+        ["xpath=//a[contains(text(),'Log out')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/nav/div/ul/li[6]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[6]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "db468da4-abe9-4650-b665-ea3bef985ecf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["17b6fbe2-1a80-410b-87f1-308610a7a2e1"]
+  }],
+  "urls": ["http://unmisterio.xyz/"],
+  "plugins": []
+}
